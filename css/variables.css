@@ -1,0 +1,17 @@
+:root {
+  /* Variables */
+  --sidebar-grid-left-col: 3em;
+  --color-black-primary: rgba(0, 0, 0, 1);
+  --color-black-basic: rgba(0, 0, 0, 0.8);
+  --color-black-secondary: rgba(0, 0, 0, 0.5);
+  --color-black-border: rgba(0, 0, 0, 0.2);
+  --color-white: #fcfcff;
+  --color-accent: #ff7e6b;
+  --color-primary: #7b33ff;
+
+  --text-heading: 3rem;
+  --text-subheading: 1.25rem;
+  --text-basic: 1.125rem;
+
+  --heading-margin-top: 5rem;
+}

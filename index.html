@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/preset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Пейнтбольный клуб Альфа</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner flex-row">
+                <a href="#" class="header__logo logo">
+                    <img src="./images/logo.svg" alt="Alpha" />
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list flex-row">
+                        <li class="header__nav-item header__nav-item--active text--subheading">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="header__nav-item text--subheading">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="header__nav-item  text--subheading">
+                            <a href="#">Расписание</a>
+                        </li>
+                        <li class="header__nav-item text--subheading">
+                            <a href="#">Заказать игру</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__auth">
+                    <a href="#" class="header__log-in btn-secondary ">Войти</a>
+                    <a href="#" class="header__sign-up btn-primary">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="welcome">
+
+            <div class="container">
+
+                <div class="welcome__inner flex-row">
+
+                    <div class="welcome__left">
+                        <h1 class="heading__main">
+                            Пейнтбольный клуб
+                            <em class="heading__main-emphasize">Альфа</em>
+                        </h1>
+                        <p class="welcome__left-text text--basic">
+                            Самая реалистичная из командно-тактических игр. Стрельба ведется шариками с краской из
+                            специальных
+                            маркеров, попадания хорошо заметны и ощутимы — невозможно не заметить! Теперь и для детей от
+                            12
+                            лет.
+                        </p>
+
+                        <a href="#" class="welcome__cta btn-cta">Заказать игру</a>
+                    </div>
+
+                    <div class="welcome__right">
+                        <img src="./images/welcome/players.png" alt="Paintballers" class="welcome__right-image">
+                        <div class="paint-spots">
+                            <img class="paint-spot paint-spot--blue" src="./images/welcome/paint-spot-blue.png"
+                                alt="Blue paintspot">
+                            <img class="paint-spot paint-spot--orange" src="./images/welcome/paint-spot-orange.png"
+                                alt="orange paintspot">
+                            <img class="paint-spot paint-spot--pink" src="./images/welcome/paint-spot-pink.png"
+                                alt="Pink paintspot">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="equipment">
+            <div class="container">
+                <h2 class="text--heading centered">Современная экипировка</h2>
+                <h3 class="equipment__subheading text--subheading centered">Вся экипировка доступна для брони при заказе
+                </h3>
+
+                <div class="equipment-slider">
+                    <div class="equipment-slider__items">
+
+                        <figure class="equipment-slider__item flex-column">
+                            <img src="./images/equipment/elbows.png" alt="Elbow defenders" />
+
+                            <figcaption class="equipment-slider__item-name text--subheading">
+                                Тактические налокотники
+                            </figcaption>
+                        </figure>
+                        <figure class="equipment-slider__item flex-column">
+                            <img src="./images/equipment/granade.png" alt="Smoke granade" />
+
+                            <figcaption class="equipment-slider__item-name text--subheading">
+                                Пейнтбольная граната с краской (профессиональная)
+                            </figcaption>
+                        </figure>
+                        <figure class="equipment-slider__item flex-column">
+                            <img src="./images/equipment/body-armor.png" alt="Body armor" />
+
+                            <figcaption class="equipment-slider__item-name text--subheading">
+                                Разгрузочный жилет Tactica
+                            </figcaption>
+                        </figure>
+                        <figure class="equipment-slider__item flex-column equipment-slider__item--cut">
+                            <img src="./images/equipment/marker-dye.png" alt="Marker Matrix" />
+                            <figcaption class="equipment-slider__item-name text--subheading">
+                                Маркер Dye Assault Matrix
+                            </figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div class="equipment-slider__bottom flex-row">
+
+                        <nav class="equipment-slider__nav">
+                            <a href="#" class="
+                                btn-secondary
+                                equipment-slider__nav-arrow 
+                                equipment-slider__nav-arrow--left 
+                                arrow-btn 
+                                arrow-btn--left
+                            ">
+                                <img src="./images/arrow.svg" alt="Arrow" />
+                            </a>
+                            <a href="#" class="
+                                btn-secondary
+                                equipment-slider__nav-arrow 
+                                equipment-slider__nav-arrow--right
+                                arrow-btn 
+                                arrow-btn--right
+                            ">
+                                <img src="./images/arrow.svg" alt="Arrow" />
+                            </a>
+                        </nav>
+
+                        <a href="#" class="equipment-slider__eqiipment-link btn-primary">
+                            Посмотреть все
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="scenarios">
+            <div class="scenarios__inner">
+                <h2 class="scenarios__heading text--heading centered">Сценарии</h2>
+                <div class="scenarios__slider">
+                    <div class="scenarios__slider-left-item scenarios__slider-item--aside">
+                        <img src="./images/scenarios/shipment.jpg" alt="Груз">
+                    </div>
+                    <div class="scenarios__item">
+                        <div class="container">
+                            <div class="scenarios__item-inner flex-row">
+                                <a href="#" class="
+                                    btn-secondary
+                                    scenarios__item-arrow
+                                    scenarios__item-arrow--left
+                                    arrow-btn 
+                                    arrow-btn--left
+                                ">
+                                    <img src="./images/arrow.svg" alt="Arrow" />
+                                </a>
+                                <div class="scenarios__card flex-row">
+                                    <div class="scenarios__card-image">
+                                        <img src="./images/scenarios/storm.jpg" alt="Штурм">
+                                    </div>
+                                    <div class="scenarios__card-description">
+                                        <div class="scenarios__card-heading">
+                                            Штурм
+                                        </div>
+                                        <div class="scenarios__card-text">
+                                            На полигоне 4 точки в каждой находится по флагу. Цель атаки – принести все
+                                            флаги к себе на респаунд. Цель обороны – защищать их. Оборона рассаживается
+                                            до середины полигона и дальше не имеет права двигаться. Если игрока убили с
+                                            флагом, его нужно оставить на земле там, где убили. Бросать и передавать
+                                            флаги убитый игрок не может.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="
+                                    btn-secondary
+                                    scenarios__item-arrow 
+                                    scenarios__item-arrow--right
+                                    arrow-btn 
+                                    arrow-btn--right
+                                ">
+                                    <img src="./images/arrow.svg" alt="Arrow" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="scenarios__slider-right-item scenarios__slider-item--aside">
+                        <img src="./images/scenarios/flag.jpg" alt="Захват флага">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="playgrounds">
+            <div class="playgrounds__inner">
+                <h2 class="playgrounds__heading text--heading centered">Площадки</h2>
+                <div class="playgrounds__slider">
+                    <div class="playgrounds__slider-left-item playgrounds__slider-item--aside">
+                        <img src="./images/playgrounds/zaslav.jpg" alt="Груз">
+                    </div>
+                    <div class="playgrounds__item">
+                        <div class="container">
+                            <div class="playgrounds__item-inner flex-row">
+                                <a href="#" class="
+                                    btn-secondary
+                                    playgrounds__item-arrow
+                                    playgrounds__item-arrow--left
+                                    arrow-btn 
+                                    arrow-btn--left
+                                ">
+                                    <img src="./images/arrow.svg" alt="Arrow" />
+                                </a>
+                                <div class="playgrounds__card flex-row">
+                                    <div class="playgrounds__card-image">
+                                        <img src="./images/playgrounds/drozdy.jpg" alt="Штурм">
+                                    </div>
+                                    <div class="playgrounds__card-description">
+                                        <div class="playgrounds__card-heading">
+                                            База в Дроздах, Минск
+                                        </div>
+                                        <div class="playgrounds__card-text">
+                                            Площадка рассчитана на 20+ человек. Площадка рассчитана на 20+ человек.
+                                            Площадка рассчитана на 20+ человек. Площадка рассчитана на 20+ человек.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="
+                                    btn-secondary
+                                    playgrounds__item-arrow 
+                                    playgrounds__item-arrow--right
+                                    arrow-btn 
+                                    arrow-btn--right
+                                ">
+                                    <img src="./images/arrow.svg" alt="Arrow" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="playgrounds__slider-right-item playgrounds__slider-item--aside">
+                        <img src="./images/playgrounds/selyahi.jpg" alt="Захват флага">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="community">
+            <div class="container">
+                <div class="comminuty__inner flex-row">
+                    <div class="community__left-phone">
+                        <img class="community__left-img" src="./images/community/left-phone.png"
+                            alt="Phone with order form" />
+                        <div class="community__left-numbers flex-row">
+                            <div class="community__left-number">
+                                1
+                            </div>
+                            <div class="community__left-number">
+                                2
+                            </div>
+                            <div class="community__left-number community__left-number--active">
+                                3
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comminuty__center">
+                        <img class="community__center-arrow" src="./images/community/arrow_direction.svg" alt="">
+                        <div class="comminuty__center-wrapper flex-column">
+                            <div class="comminuty__center-left-descr">
+                                Регистрируйся сейчас и получи скидку 30% на первую игру. Ты получишь доступ к играм
+                                нашего клуба и сможешь общаться с игроками
+                            </div>
+                            <h2 class="comminuty__center-heading">Пейнтбольное сообщество</h2>
+                            <a href="#" class="community__cta btn-cta">Стань частью клуба</a>
+                            <div class="comminuty__center-right-descr">
+                                Доступ к играм клуба в твоем смартфоне. Пообщаемся?
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="community__right-phone">
+                        <img class="community__right-img" src="./images/community/right-phone.png"
+                            alt="Phone with log-in form" />
+                        <div class="community__right-dots flex-row">
+                            <div class="community__right-dot"></div>
+                            <div class="community__right-dot community__right-dot--active"></div>
+                            <div class="community__right-dot"></div>
+                            <div class="community__right-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <h2 class="price__heading text--heading centered">Рассчитайте цену</h2>
+                <div class="price__inner flex-row">
+                    <div class="price__calculator">
+                        <div class="price__calculator-heading text--subheading centered">Калькулятор цен</div>
+                        <div class="price__calculator-options flex-column">
+                            <div class="price__calculator-playground calculator-row flex-row">
+                                <div
+                                    class="price__calculator-playground-option calculator--non-selected calculator-option">
+                                    Открытая
+                                    площадка
+                                </div>
+                                <div class="price__calculator-playground-option calculator--selected calculator-option">
+                                    Закрытая
+                                    площадка
+                                </div>
+                            </div>
+                            <div class="price__calculator-balls calculator-row flex-row">
+                                <div class="price__calculator-balls-option calculator-option calculator--non-selected">
+                                    100 шаров
+                                </div>
+                                <div class="price__calculator-balls-option calculator-option calculator--non-selected">
+                                    200 шаров
+                                </div>
+                                <div class="price__calculator-balls-option calculator-option calculator--selected">
+                                    300 шаров
+                                </div>
+                                <div class="price__calculator-balls-option calculator-option calculator--non-selected">
+                                    400 шаров
+                                </div>
+                            </div>
+                            <div class="price__calculator-day calculator-row flex-row">
+                                <div class="price__calculator-day-option calculator-option calculator--selected">
+                                    Будний день
+                                </div>
+                                <div class="price__calculator-day-option calculator-option calculator--non-selected">
+                                    Выходной
+                                </div>
+                            </div>
+                            <div class="price__calculator-people-count calculator-row flex-row">
+                                <div class="price__calculator-people-label calculator-option">
+                                    Количество человек:
+                                </div>
+                                <input type="text" class="price__calculator-people-input calculator-option"
+                                    placeholder="10">
+                            </div>
+                        </div>
+                        <div class="price__calculator-summary calculator-row flex-row">
+                            <div class="price__calculator-summary-label calculator-option">
+                                Итоговая цена:
+                            </div>
+                            <div class="price__calculator-summary-price-wrapper calculator-option flex-row">
+                                <div class="price__calculator-summary-price">
+                                    100BYN
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__description">
+                        <div class="price__description-price">
+                            Цена рассчитывается исходя из Ваших нужд. Мы открыты к Вашим предложениям по количеству
+                            человек шаров и так далее
+                        </div>
+                        <div class="price__cta btn-cta">Заказать игру</div>
+                        <div class="price__description-suggest">
+                            <div class="price__description-suggest-heading text--subheading">
+                                Не хватает людей или хотите более масшабную игру?
+                            </div>
+                            <div class="price__description-suggest-description">
+                                Вы можете зарегистрироваться в нашем клубе и вам станет доступна возможность заказать
+                                смешанную игру, куда можно пригласить и Ваших друзей, и участников клуба
+                            </div>
+                            <a href="#" class="price__description-suggest-btn btn-secondary">
+                                Стать частью клуба
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="container">
+                <div class="order__shape">
+                    <h2 class="order__heading text--heading centered">Заказать игру</h2>
+                    <div class="order__text">
+                        Закажите игру сейчас. Вы выбираете программу и другие услуги клуба. Назначаете день игры.
+                        Мы перезвоним вам, чтобы уточнить все детали и оформить заявку.
+                    </div>
+                    <div class="order__cta btn-cta">Заказать игру</div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner flex-row">
+                    <div class="footer__left">
+                        <nav class="footer__nav">
+                            <ul class="footer__nav-list flex-column">
+                                <li class="footer__nav-item footer__nav-item--active text--basic">
+                                    <a href="#">Главная</a>
+                                </li>
+                                <li class="footer__nav-item text--basic">
+                                    <a href="#">О нас</a>
+                                </li>
+                                <li class="footer__nav-item  text--basic">
+                                    <a href="#">Расписание</a>
+                                </li>
+                                <li class="footer__nav-item text--basic">
+                                    <a href="#">Заказать игру</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#" class="footer__logo logo">
+                            <img src="./images/logo.svg" alt="Alpha" />
+                        </a>
+                    </div>
+                    <div class="footer__contacts flex-column">
+                        <p class="footer__contact text--basic">Адрес: г.Минск, пр-т Независимости 76</p>
+                        <p class="footer__contact text--basic">ИП Стрельцов Андрей Викторович</p>
+                        <p class="footer__contact text--basic">УНП 22400786, №209321</p>
+                        <p class="footer__contact text--basic">Альфа, 2024.Все права соблюдены.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
